@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>MY BOLG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="MY BOLG">
+<meta property="og:url" content="http://jumpu.top/page/8/index.html">
+<meta property="og:site_name" content="MY BOLG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MY BOLG">
+  
+    <link rel="alternate" href="/atom.xml" title="MY BOLG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">MY BOLG</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://jumpu.top"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="layout-node install" class="article article-type-layout" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/30/node install/" class="article-date">
+  <time datetime="2016-12-30T03:32:52.000Z" itemprop="datePublished">2016-12-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/30/node install/">database_choice</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>window:</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div></pre></td><td class="code"><pre><div class="line">1.官网下载安装</div><div class="line">2.编写测试文件test.js 这里我们先放在D盘demo下</div><div class="line">var http = require(&quot;http&quot;); </div><div class="line">http.createServer(function(request, response) &#123; </div><div class="line">response.writeHead(200, &#123;&quot;Content-Type&quot;: &quot;text/plain&quot;&#125;); </div><div class="line">response.write(&quot;test nodjs&quot;); </div><div class="line">response.end(); </div><div class="line">&#125;).listen(8899); </div><div class="line">console.log(&quot;nodejs start listen 8899 port!&quot;);</div><div class="line">设置好浏览器端口信息这里我们用8899</div><div class="line">进入node.js command prompt 命令窗口,输入cd C:\Program Files\nodejs\node_modules\npm\test 进入目录然后node test.js </div><div class="line">键入node test.js</div><div class="line">然后浏览器打开http://127.0.0.1:8899/ 可以看到输出了test nodjs。环境安装配置成功</div><div class="line">(test pass)</div><div class="line"></div><div class="line">node -h</div><div class="line">Usage: node [options] [ -e script | script.js ] [arguments]</div><div class="line">       node debug script.js [arguments]</div><div class="line"></div><div class="line">Options:</div><div class="line">  -v, --version         print Node.js version</div><div class="line">  -e, --eval script     evaluate script</div><div class="line">  -p, --print           evaluate script and print result</div><div class="line">  -c, --check           syntax check script without executing</div><div class="line">  -i, --interactive     always enter the REPL even if stdin</div><div class="line">                        does not appear to be a terminal</div><div class="line">  -r, --require         module to preload (option can be repeated)</div><div class="line">  --no-deprecation      silence deprecation warnings</div><div class="line">  --trace-deprecation   show stack traces on deprecations</div><div class="line">  --throw-deprecation   throw an exception anytime a deprecated function is used</div><div class="line">  --no-warnings         silence all process warnings</div><div class="line">  --trace-warnings      show stack traces on process warnings</div><div class="line">  --trace-sync-io       show stack trace when use of sync IO</div><div class="line">                        is detected after the first tick</div><div class="line">  --track-heap-objects  track heap object allocations for heap snapshots</div><div class="line">  --prof-process        process v8 profiler output generated</div><div class="line">                        using --prof</div><div class="line">  --zero-fill-buffers   automatically zero-fill all newly allocated</div><div class="line">                        Buffer and SlowBuffer instances</div><div class="line">  --v8-options          print v8 command line options</div><div class="line">  --v8-pool-size=num    set v8&apos;s thread pool size</div><div class="line">  --tls-cipher-list=val use an alternative default TLS cipher list</div><div class="line">  --icu-data-dir=dir    set ICU data load path to dir</div><div class="line">                        (overrides NODE_ICU_DATA)</div><div class="line">  --preserve-symlinks   preserve symbolic links when resolving</div><div class="line">                        and caching modules.</div><div class="line"></div><div class="line">Environment variables:</div><div class="line">NODE_PATH                &apos;;&apos;-separated list of directories</div><div class="line">                         prefixed to the module search path.</div><div class="line">NODE_DISABLE_COLORS      set to 1 to disable colors in the REPL</div><div class="line">NODE_ICU_DATA            data path for ICU (Intl object) data</div><div class="line">NODE_REPL_HISTORY        path to the persistent REPL history file</div><div class="line"></div><div class="line">Documentation can be found at https://nodejs.org/</div></pre></td></tr></table></figure>
+<blockquote>
+<p>linux</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">1.官网下载</div><div class="line">2.解压安装</div><div class="line">&gt;&gt;  cd  node-v0.10.24</div><div class="line">&gt;&gt; ./configure</div><div class="line">&gt;&gt; make</div><div class="line">&gt;&gt; make install</div><div class="line"></div><div class="line">3.安装web框架，如：</div><div class="line">express（友好的文档是成功的一半）</div><div class="line">4.安装supervisor每次修改代码后会自动重启</div><div class="line">npm install supervisor</div></pre></td></tr></table></figure>
+<p><a href="http://www.expressjs.com.cn/" target="_blank" rel="external">express网址</a></p>
+<p><a href="http://wlb.wlb.blog.163.com/blog/static/467413201511332843551/" target="_blank" rel="external">参考网址1</a></p>
+<p><a href="http://www.cnblogs.com/zhoulf/p/4042888.html" target="_blank" rel="external">参考网址2</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jumpu.top/2016/12/30/node install/" data-id="ciz6pa21w0005sgkwt333cfdh" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MEAN-mongoDB-express-nodeJS-angular/">MEAN mongoDB express nodeJS angular</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    <a class="extend prev" rel="prev" href="/page/7/">&laquo; __('prev')</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/9/">__('next') &raquo;</a>
+  </nav>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/DB-nosql-sql/">DB nosql sql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MEAN-mongoDB-express-nodeJS-angular/">MEAN mongoDB express nodeJS angular</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MEAN-nodeJS/">MEAN nodeJS</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/DB-nosql-sql/" style="font-size: 10px;">DB nosql sql</a> <a href="/tags/MEAN-mongoDB-express-nodeJS-angular/" style="font-size: 10px;">MEAN mongoDB express nodeJS angular</a> <a href="/tags/MEAN-nodeJS/" style="font-size: 10px;">MEAN nodeJS</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/02/15/ionic2build/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/MongoDB doucment/">database_choice</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/testone/">testone</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/01/16/MEAN本地服务器安装/">MEAN本地服务器安装</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 AN.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

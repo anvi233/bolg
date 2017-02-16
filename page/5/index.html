@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>MY BOLG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="MY BOLG">
+<meta property="og:url" content="http://jumpu.top/page/5/index.html">
+<meta property="og:site_name" content="MY BOLG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MY BOLG">
+  
+    <link rel="alternate" href="/atom.xml" title="MY BOLG" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">MY BOLG</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://jumpu.top"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="layout-MEAN本地服务器安装" class="article article-type-layout" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/16/MEAN本地服务器安装/" class="article-date">
+  <time datetime="2017-01-16T08:03:51.000Z" itemprop="datePublished">2017-01-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/16/MEAN本地服务器安装/">MEAN本地服务器安装</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">1.命令npm install anywhere -g</div><div class="line">2.anywhere 8860(端口名)启动(关闭命令窗口会停止服务)，此时已经可以在端口提供本地服务器服务</div><div class="line">3.命令npm install mongodb -g</div><div class="line">npm install mongodb --save</div><div class="line">4.命令npm install express -g</div><div class="line">5.命令</div><div class="line">npm install -g angular</div><div class="line">npm install -g ionic</div><div class="line">npm install -g cordova</div></pre></td></tr></table></figure>
+<p>查看本机ip：</p>
+<p>ipconfig/all</p>
+<h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><blockquote>
+<p>MongoDB</p>
+</blockquote>
+<p><a href="http://mongodb.github.io/node-mongodb-native/2.2/" target="_blank" rel="external">MongoDB——node官方的驱动教程</a></p>
+<p><a href="http://www.jb51.net/article/50546.htm" target="_blank" rel="external">mongodb权限设置之添加管理员、普通用户的方法</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line">//mongodb参考代码：</div><div class="line">var  mongodb = require(&apos;mongodb&apos;);</div><div class="line">var  server  = new mongodb.Server(&apos;localhost&apos;, 27017, &#123;auto_reconnect:true&#125;);</div><div class="line">var  db = new mongodb.Db(&apos;mydb&apos;, server, &#123;safe:true&#125;);</div><div class="line"></div><div class="line">//连接db</div><div class="line">db.open(function(err, db)&#123;</div><div class="line">    if(!err)&#123;</div><div class="line">        console.log(&apos;connect db&apos;);</div><div class="line">        // 连接Collection（可以认为是mysql的table）</div><div class="line">        // 第1种连接方式</div><div class="line">        // db.collection(&apos;mycoll&apos;,&#123;safe:true&#125;, function(err, collection)&#123;</div><div class="line">        //     if(err)&#123;</div><div class="line">        //         console.log(err);</div><div class="line">        //     &#125;</div><div class="line">        // &#125;);</div><div class="line">        // 第2种连接方式</div><div class="line">        db.createCollection(&apos;mycoll&apos;, &#123;safe:true&#125;, function(err, collection)&#123;</div><div class="line">            if(err)&#123;</div><div class="line">                console.log(err);</div><div class="line">            &#125;else&#123;</div><div class="line">                //新增数据</div><div class="line">                // var tmp1 = &#123;id:&apos;1&apos;,title:&apos;hello&apos;,number:1&#125;;</div><div class="line">       //          collection.insert(tmp1,&#123;safe:true&#125;,function(err, result)&#123;</div><div class="line">       //              console.log(result);</div><div class="line">       //          &#125;); </div><div class="line">                   //更新数据</div><div class="line">                   // collection.update(&#123;title:&apos;hello&apos;&#125;, &#123;$set:&#123;number:3&#125;&#125;, &#123;safe:true&#125;, function(err, result)&#123;</div><div class="line">                   //     console.log(result);</div><div class="line">                   // &#125;);</div><div class="line">                   // 删除数据</div><div class="line">                       // collection.remove(&#123;title:&apos;hello&apos;&#125;,&#123;safe:true&#125;,function(err,result)&#123;</div><div class="line">        //                   console.log(result);</div><div class="line">        //               &#125;);</div><div class="line"></div><div class="line">                // console.log(collection);</div><div class="line">                // 查询数据</div><div class="line">                var tmp1 = &#123;title:&apos;hello&apos;&#125;;</div><div class="line">                   var tmp2 = &#123;title:&apos;world&apos;&#125;;</div><div class="line">                   collection.insert([tmp1,tmp2],&#123;safe:true&#125;,function(err,result)&#123;</div><div class="line">                   console.log(result);</div><div class="line">                   &#125;); </div><div class="line">                   collection.find().toArray(function(err,docs)&#123;</div><div class="line">                   console.log(&apos;find&apos;);</div><div class="line">                   console.log(docs);</div><div class="line">                   &#125;); </div><div class="line">                   collection.findOne(function(err,doc)&#123;</div><div class="line">                    console.log(&apos;findOne&apos;);</div><div class="line">                      console.log(doc);</div><div class="line">                   &#125;); </div><div class="line">            &#125;</div><div class="line"></div><div class="line">        &#125;);</div><div class="line">        // console.log(&apos;delete ...&apos;);</div><div class="line">        // //删除Collection</div><div class="line">        // db.dropCollection(&apos;mycoll&apos;,&#123;safe:true&#125;,function(err,result)&#123;</div><div class="line"></div><div class="line">  //           if(err)&#123;</div><div class="line">                </div><div class="line">        //         console.log(&apos;err:&apos;);</div><div class="line">        //         console.log(err);</div><div class="line">        //     &#125;else&#123;</div><div class="line">        //         console.log(&apos;ok:&apos;);</div><div class="line">        //         console.log(result);</div><div class="line">        //     &#125;</div><div class="line">  //       &#125;); </div><div class="line">    &#125;else&#123;</div><div class="line">        console.log(err);</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>node</p>
+</blockquote>
+<p><a href="http://socket.io/docs/" target="_blank" rel="external">socket.io官方文档</a></p>
+<p><a href="http://nodejs.cn/doc/node/index.html" target="_blank" rel="external">node官方文档</a></p>
+<blockquote>
+<p>MEAN</p>
+</blockquote>
+<p><a href="http://mean.io/" target="_blank" rel="external">mean官网</a></p>
+<p><a href="http://www.cnblogs.com/lvdabao/p/mean-techstack-angular.html" target="_blank" rel="external">用“MEAN”技术栈开发web应用</a></p>
+<p><a href="http://blog.csdn.net/ty0415/article/details/8616870" target="_blank" rel="external">如何让外网访问本地WEB服务器</a></p>
+<p><a href="http://www.jianshu.com/p/eeb8227e734f" target="_blank" rel="external">MEAN安装与配置</a></p>
+<p><a href="http://www.cnblogs.com/flyingzl/articles/4530186.html" target="_blank" rel="external">angular2参考文档</a></p>
+<p><a href="https://my.oschina.net/chenhao901007/blog/312367" target="_blank" rel="external">nodejs+express+mongodb简单的例子</a></p>
+<p><a href="http://www.jb51.net/article/57880.htm" target="_blank" rel="external">node.js操作mongoDB数据库示例分享</a></p>
+<p><a href="https://www.zhihu.com/question/35747071" target="_blank" rel="external">怎样用Node.js快速搭建服务器？</a></p>
+<p><a href="http://blog.csdn.net/g1apassz/article/details/43817783" target="_blank" rel="external">抓取网络json数据并存入mongodb</a></p>
+<p><a href="http://blog.csdn.net/u013075468/article/details/51354683" target="_blank" rel="external">MongoDB 导入Json数据</a></p>
+<blockquote>
+<p>ip analysis</p>
+</blockquote>
+<pre><code>需在路由的虚拟服务器中配置将端口映射到外网IP
+</code></pre><p><a href="http://blog.163.com/niuxiangshan@126/blog/static/17059659520123126225739/" target="_blank" rel="external">linux 命令 iptable 详解</a></p>
+<blockquote>
+<p>nginx反向代理</p>
+</blockquote>
+<pre><code>主要用来做负载均衡的轻量级工具，用来配置和限制数据流连接数等，以及静态数据在各个服务器节点中的统一调度（貌似在动态数据加载中不是很好），在环境不要求不是很高的情况下只需要做一些简单的配置即可，事实上计划使用七牛云的加速了
+</code></pre><p><a href="http://www.open-open.com/lib/view/open1402479198587.html" target="_blank" rel="external">使用Node.js+Socket.IO搭建WebSocket实时应用</a></p>
+<p><a href="http://nginx.org/en/download.html" target="_blank" rel="external">nginx下载</a></p>
+<p><a href="http://www.cnblogs.com/zboy/p/5852587.html" target="_blank" rel="external">linux下nginx反向代理</a></p>
+<p><a href="http://www.nginx.cn/591.html" target="_blank" rel="external">nginx配置入门</a></p>
+<p><a href="http://www.cnblogs.com/sayou/p/3319635.html" target="_blank" rel="external">nginx.conf 配置注释</a></p>
+<p><a href="http://blog.csdn.net/hjjoe1213123/article/details/39527529" target="_blank" rel="external">Ngnix反向代理内外网访问</a></p>
+<p><a href="http://www.cnblogs.com/fanzhidongyzby/p/5194895.html" target="_blank" rel="external">nginx常用代理配置</a></p>
+<p><a href="https://www.aliyun.com/zixun/content/2_6_518574.html" target="_blank" rel="external">Nginx官方虚拟主机设置示例</a></p>
+<p><a href="http://www.codeceo.com/article/nginx-ssl-nodejs.html" target="_blank" rel="external">配置Nginx SSL Node.js环境详细指南</a></p>
+<blockquote>
+<p>others</p>
+</blockquote>
+<p><a href="http://www.open-open.com/lib/view/open1423817850201.html" target="_blank" rel="external">通过Web Audio　API可视化输出MP3音乐频率波形</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jumpu.top/2017/01/16/MEAN本地服务器安装/" data-id="ciz6pnll80009sgkw5iynjexz" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MEAN-nodeJS/">MEAN nodeJS</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    <a class="extend prev" rel="prev" href="/page/4/">&laquo; __('prev')</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/6/">__('next') &raquo;</a>
+  </nav>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/DB-nosql-sql/">DB nosql sql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MEAN-mongoDB-express-nodeJS-angular/">MEAN mongoDB express nodeJS angular</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MEAN-nodeJS/">MEAN nodeJS</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/DB-nosql-sql/" style="font-size: 10px;">DB nosql sql</a> <a href="/tags/MEAN-mongoDB-express-nodeJS-angular/" style="font-size: 10px;">MEAN mongoDB express nodeJS angular</a> <a href="/tags/MEAN-nodeJS/" style="font-size: 10px;">MEAN nodeJS</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">一月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/02/15/ionic2build/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/MongoDB doucment/">database_choice</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/testone/">testone</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/15/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/01/16/MEAN本地服务器安装/">MEAN本地服务器安装</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 AN.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
